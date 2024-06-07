@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DataBase connection established]]>
+    </line>
+    <line>
+      <![CDATA[Application is logout]]>
+    </line>
+    <line>
+      <![CDATA[Database connection is removed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-30T09:33:01 IST" name="Default suite" finished-at="2024-05-30T09:33:25 IST" duration-ms="24064">
+    <groups>
+    </groups>
+    <test started-at="2024-05-30T09:33:01 IST" name="Default test" finished-at="2024-05-30T09:33:25 IST" duration-ms="24064">
+      <class name="TestCases.TestCase_01_Test">
+        <test-method is-config="true" signature="BeforeSuiteConfig()[pri:0, instance:TestCases.TestCase_01_Test@56620197]" started-at="2024-05-30T09:33:01 IST" name="BeforeSuiteConfig" finished-at="2024-05-30T09:33:01 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DataBase connection established]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeSuiteConfig -->
+        <test-method is-config="true" signature="ToLaunchBrowser()[pri:0, instance:TestCases.TestCase_01_Test@56620197]" started-at="2024-05-30T09:33:01 IST" name="ToLaunchBrowser" finished-at="2024-05-30T09:33:03 IST" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToLaunchBrowser -->
+        <test-method is-config="true" signature="NavigateToURL()[pri:0, instance:TestCases.TestCase_01_Test@56620197]" started-at="2024-05-30T09:33:03 IST" name="NavigateToURL" finished-at="2024-05-30T09:33:09 IST" duration-ms="5132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToURL -->
+        <test-method signature="ToCreateConatc()[pri:0, instance:TestCases.TestCase_01_Test@56620197]" started-at="2024-05-30T09:33:09 IST" name="ToCreateConatc" finished-at="2024-05-30T09:33:23 IST" duration-ms="14507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToCreateConatc -->
+        <test-method is-config="true" signature="ToLogOut()[pri:0, instance:TestCases.TestCase_01_Test@56620197]" started-at="2024-05-30T09:33:23 IST" name="ToLogOut" finished-at="2024-05-30T09:33:25 IST" duration-ms="1975" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToLogOut -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:TestCases.TestCase_01_Test@56620197]" started-at="2024-05-30T09:33:25 IST" name="CloseTheBrowser" finished-at="2024-05-30T09:33:25 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+        <test-method is-config="true" signature="AfterSuiteConfig()[pri:0, instance:TestCases.TestCase_01_Test@56620197]" started-at="2024-05-30T09:33:25 IST" name="AfterSuiteConfig" finished-at="2024-05-30T09:33:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection is removed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterSuiteConfig -->
+      </class> <!-- TestCases.TestCase_01_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
